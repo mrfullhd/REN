@@ -1,6 +1,3 @@
-کد کامل با صفحهٔ اصلی جعلی، لاگین گلس‌مورفیسم و داشبورد گلس‌مورفیسم تقدیم می‌شود. تمام قابلیت‌های قبلی (وب‌سوکت، مدیریت کاربران، ترافیک، آی‌پی تمیز، دامنه و ...) حفظ شده‌اند.
-
-```python
 import asyncio
 import json
 import os
@@ -1414,4 +1411,4 @@ async def dashboard_page(request: Request):
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=CONFIG["port"])
-```
+
